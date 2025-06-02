@@ -1,0 +1,133 @@
+{
+  "module_configurations": {
+    "grounding_module_config": {
+      "type": "document_grounding_service",
+      "config": {
+        "filters": [
+          {
+            "id": "filter1",
+            "data_repositories": [
+              "ac8c68d6-63a6-4892-b033-a29e486af88c"
+            ],
+            "search_config": {
+              "max_document_count": 1
+            },
+            "data_repository_type": "vector"
+          }
+        ],
+        "input_params": [
+          "question"
+        ],
+        "output_param": "context"
+      }
+    },
+    "llm_module_config": {
+      "model_name": "gpt-4.1-mini",
+      "model_params": {},
+      "model_version": "2025-04-14"
+    },
+    "templating_module_config": {
+      "template_ref": {
+        "id": "c87d1782-7054-43f2-9d85-741cb36c79f0"
+      }
+    },
+    "filtering_module_config": {
+      "input": {
+        "filters": [
+          {
+            "type": "azure_content_safety",
+            "config": {
+              "Hate": 2,
+              "SelfHarm": 2,
+              "Sexual": 2,
+              "Violence": 2
+            }
+          },
+          {
+            "type": "llama_guard_3_8b",
+            "config": {
+              "child_exploitation": true,
+              "code_interpreter_abuse": true,
+              "defamation": true,
+              "elections": true,
+              "hate": true,
+              "indiscriminate_weapons": true,
+              "intellectual_property": true,
+              "non_violent_crimes": true,
+              "privacy": true,
+              "self_harm": true,
+              "sex_crimes": true,
+              "sexual_content": true,
+              "specialized_advice": true,
+              "violent_crimes": true
+            }
+          }
+        ]
+      },
+      "output": {
+        "filters": [
+          {
+            "type": "azure_content_safety",
+            "config": {
+              "Hate": 2,
+              "SelfHarm": 2,
+              "Sexual": 2,
+              "Violence": 2
+            }
+          },
+          {
+            "type": "llama_guard_3_8b",
+            "config": {
+              "child_exploitation": true,
+              "code_interpreter_abuse": true,
+              "defamation": true,
+              "elections": true,
+              "hate": true,
+              "indiscriminate_weapons": true,
+              "intellectual_property": true,
+              "non_violent_crimes": true,
+              "privacy": true,
+              "self_harm": true,
+              "sex_crimes": true,
+              "sexual_content": true,
+              "specialized_advice": true,
+              "violent_crimes": true
+            }
+          }
+        ]
+      }
+    },
+    "masking_module_config": {
+      "masking_providers": [
+        {
+          "type": "sap_data_privacy_integration",
+          "method": "pseudonymization",
+          "entities": [
+            {
+              "type": "profile-email"
+            },
+            {
+              "type": "profile-org"
+            },
+            {
+              "type": "profile-person"
+            },
+            {
+              "type": "profile-phone"
+            },
+            {
+              "type": "profile-sapids-internal"
+            },
+            {
+              "type": "profile-username-password"
+            }
+          ],
+          "mask_grounding_input": {
+            "enabled": true
+          },
+          "allowlist": []
+        }
+      ]
+    }
+  }
+}
