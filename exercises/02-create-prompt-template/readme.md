@@ -1,0 +1,1 @@
+# Exercise 02 - Create a prompt template with the SAP AI Launchpad

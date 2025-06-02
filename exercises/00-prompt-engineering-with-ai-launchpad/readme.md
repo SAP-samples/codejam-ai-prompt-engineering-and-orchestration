@@ -1,0 +1,1 @@
+# Exercise 00 - Prompt Engineering with SAP AI Launchpad
