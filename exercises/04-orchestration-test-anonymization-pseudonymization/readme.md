@@ -7,7 +7,12 @@ Last exercise, you have set up the data masking configuration but couldn't prope
 
 ## Table of Contents
 
-
+- [Exercise 04 - Learn more about Data Masking](#exercise-04---learn-more-about-data-masking)
+- [Change the Data Masking configuration to include Organizations](#change-the-data-masking-configuration-to-include-organizations)
+- [Change the Data Masking configuration to use Pseudonymization](#change-the-data-masking-configuration-to-use-pseudonymization)
+- [Summary](#summary)
+  - [Questions for Discussion](#questions-for-discussion)
+- [Further reading](#further-reading)
 
 ## Change the Data Masking configuration to include Organizations
 
