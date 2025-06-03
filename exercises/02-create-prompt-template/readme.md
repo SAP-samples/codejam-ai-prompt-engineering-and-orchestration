@@ -6,6 +6,18 @@ In this exercise, you will learn how to create a prompt template to use later in
 
 ## Table of Contents
 
+- [Exercise 02 - Create a Prompt Template with the SAP AI Launchpad](#exercise-02---create-a-prompt-template-with-the-sap-ai-launchpad)
+- [What is a Prompt Template?](#what-is-a-prompt-template)
+  - [Why are prompt templates helpful?](#why-are-prompt-templates-helpful)
+  - [Using Prompt Templates from SAP AI Launchpad with the SAP Cloud SDK for AI](#using-prompt-templates-from-sap-ai-launchpad-with-the-sap-cloud-sdk-for-ai)
+- [Create a New Prompt Template](#create-a-new-prompt-template)
+  - [Set the System Message](#set-the-system-message)
+  - [Set the User Message](#set-the-user-message)
+  - [Save the Template](#save-the-template)
+- [Summary](#summary)
+  - [Questions for Discussion](#questions-for-discussion)
+- [Further Reading](#further-reading)
+
 ## What is a Prompt Template?
 
 A **prompt template** is a reusable structure for creating prompts that you send to an LLM. It typically contains fixed instructions or context (such as a system prompt) and placeholders (variables) that can be filled in with dynamic information when the prompt is used.
