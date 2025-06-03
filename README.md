@@ -12,7 +12,7 @@ The [Reuse Tool](https://reuse.software/) must be used for your samples project.
 3. The README.md file (this file):
 Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
 
-# [Title]
+# Learn how to master Prompt Engineering, and utilize the Orchestration Service of SAP AI Launchpad
 <!-- Please include descriptive title -->
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
@@ -20,14 +20,38 @@ Please edit this file as it is the primary description file for your project. Yo
 -->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+This CodeJam is special in a sense that you won't write any code but you will work a lot with LLMs and the SAP AI Launchpad. The goal of this CodeJam is that you learn everything about Prompt Engineering, the fundamentals of AI and finally configure an Orchestration Workflow to build a Retrieval Augmented Generation flow.
+
+The contextual data is stored in a S3 Bucket on AWS initialized through a content bucket on SAP Business Technology Platform.
+
+## Exercises
+
+These are the exercises, each in their directory, sometimes with supporting files and scripts. We will work through the exercises in the order shown here. From a session flow perspective, we are taking the "coordinated" approach:
+
+## Exercises
+
+These are the exercises, each in their directory, sometimes with supporting files and scripts. We will work through the exercises in the order shown here:
+
+1. [Exercise 01 - Introduction to Prompt Engineering](exercises/01-intro-prompt-engineering/readme.md)
+2. [Exercise 02 - Create a Prompt Template with the SAP AI Launchpad](exercises/02-create-prompt-template/readme.md)
+3. [Exercise 03 - Set up an orchestration pipeline with the SAP AI Launchpad](exercises/03-setup-orchestration-pipeline/readme.md)
+4. [Exercise 04 - Learn More About Data Masking](exercises/04-orchestration-test-anonymization-pseudonymization/readme.md)
+5. [Exercise 05 - Learn More About Content Filtering](exercises/05-orchestration-test-input-output-filtering/readme.md)
+
+The instructor will start you on the first exercise, and that's the only one you should do. You should only proceed to the next exercise once the instructor tells you to.
+
+For this CodeJam you are provided with a subaccount on SAP BTP. The subaccount is only available for the duration of this CodeJam.
+
+## Frequently asked Questions
+
+You can find a list of frequently asked questions in the [Frequently Asked Questions Document](./frequently-asked-questions.md)
 
 ## Requirements
 
-## Download and Installation
+You only need a Chromium based browser.
 
 ## Known Issues
-<!-- You may simply state "No known issues. -->
+No known issues.
 
 ## How to obtain support
 [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
