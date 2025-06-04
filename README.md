@@ -1,9 +1,6 @@
 # Learn how to master Prompt Engineering, and utilize the Orchestration Service of SAP AI Launchpad
-<!-- Please include descriptive title -->
 
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/codejam-ai-prompt-engineering-and-orchestration)](https://api.reuse.software/info/github.com/SAP-samples/codejam-ai-prompt-engineering-and-orchestration)
 
 ## Description
 This CodeJam is special in a sense that you won't write any code but you will work a lot with LLMs and the SAP AI Launchpad. The goal of this CodeJam is that you learn everything about Prompt Engineering, the fundamentals of AI and finally configure an Orchestration Workflow to build a Retrieval Augmented Generation flow.
@@ -13,10 +10,6 @@ The contextual data is stored in a S3 Bucket on AWS initialized through a conten
 ## Exercises
 
 These are the exercises, each in their directory, sometimes with supporting files and scripts. We will work through the exercises in the order shown here. From a session flow perspective, we are taking the "coordinated" approach:
-
-## Exercises
-
-These are the exercises, each in their directory, sometimes with supporting files and scripts. We will work through the exercises in the order shown here:
 
 1. [Exercise 01 - Introduction to Prompt Engineering](exercises/01-intro-prompt-engineering/readme.md)
 2. [Exercise 02 - Create a Prompt Template with the SAP AI Launchpad](exercises/02-create-prompt-template/readme.md)
