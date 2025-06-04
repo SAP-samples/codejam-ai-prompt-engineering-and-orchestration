@@ -1,5 +1,5 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and REUSE.toml. All repositories on github.com/SAP-samples will be created based on this template.
+# AI Prompt Engineering and Prchestration
+Learn more about prompt engineering using the SAP AI Launchpad and utilize the Grounding and Orchestration service to test a RAG flow.
 
 # Containing Files
 
