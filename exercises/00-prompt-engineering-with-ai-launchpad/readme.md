@@ -60,16 +60,22 @@ The Model Library gives you a great overview and filter options to find the corr
 
 ![chat_change_model_gpt](assets/prompt-engineering-02.png)
 
+You know have changed the model for the chat.
+
 ### Chat Settings
 
 You can configure different parameters for the LLM within the **Configure Chat Settings**. These are typical parameters almost all LLMs provide. The SAP AI Launchpad allows you to easily configure these parameters for the model. These configurations would usually be done within the model configuration, but you can also change them here within the chat feature to test them out and experiment with the LLMs' behaviour.
 
+**Frequency Penalty**
 The parameter **Frequency Penalty** allows you to penalize words that appear too frequently in the text, leading to the model not sounding too robotic.
 
+**Presence Penalty**
 Similarly, the higher the **Presence Penalty**, the more likely the model will talk about new topics, as you penalize words that have appeared in the text so far.
 
+**Max Tokens**
 With **Max Tokens**, you can set the size of the input and output of the model. Tokens are not words but rather 4-5 characters long in regards to this model. Each and every model can define its tokenization technique for itself. There is no set standard for tokenization, so be advised if you use LLMs outside of this workshop.
 
+**Temperature**
 With the **Temperature** parameter, you can set how creative the model should sound—how flexible the model is allowed to be in selecting the next token in the sequence.
 
 ### Context History and Message Roles
