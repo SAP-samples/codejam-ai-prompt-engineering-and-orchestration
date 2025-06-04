@@ -36,7 +36,7 @@ In this exercise, you will use the SAP AI Launchpad to explore the capabilities 
 
 👉 Open the [SAP AI Launchpad](https://cap-ai-codejam-op6zhda1.ai-launchpad.prod.us-east-1.aws.ai-prod.cloud.sap/aic/index.html).
 
-👉 Select the `CAP-AI-CodeJam` resource group under workspaces. A blue indicator shows you if the resource group is properly selected.
+👉 Select the `Object-Store-AI-Resource-Group` resource group under workspaces. A blue indicator shows you if the resource group is properly selected.
 
 ![select-resource-group](./assets/select-resource-group.png)
 
@@ -44,21 +44,7 @@ In this exercise, you will use the SAP AI Launchpad to explore the capabilities 
 
 👉 Click **Configure** and have a look at the available fields.
 
-Under **Selected Model**, you will find all the deployed models. If there is no deployment, this will be empty and you will not be able to chat. If you have more than one large language model deployed, you will be able to select which one you want to use here.
-
-You can see two tabs in the **Configure Chat Settings** pop-up. One is the Model Settings and the other is the configuration for the **Chat Context**.
-
-### Chat Settings
-
-You can configure different parameters for the LLM within the **Configure Chat Settings**. These are typical parameters almost all LLMs provide. The SAP AI Launchpad allows you to easily configure these parameters for the model. These configurations would usually be done within the model configuration, but you can also change them here within the chat feature to test them out and experiment with the LLMs' behaviour.
-
-The parameter **Frequency Penalty** allows you to penalize words that appear too frequently in the text, leading to the model not sounding too robotic.
-
-Similarly, the higher the **Presence Penalty**, the more likely the model will talk about new topics, as you penalize words that have appeared in the text so far.
-
-With **Max Tokens**, you can set the size of the input and output of the model. Tokens are not words but rather 4-5 characters long in regards to this model. Each and every model can define its tokenization technique for itself. There is no set standard for tokenization, so be advised if you use LLMs outside of this workshop.
-
-With the **Temperature** parameter, you can set how creative the model should sound—how flexible the model is allowed to be in selecting the next token in the sequence.
+Under **Selected Model**, you will find the currently selected model.
 
 For this exercise, you want to change the default model `mistralai--mistral-large-instruct (2407)` to `GPT-4.1 mini`.
 
@@ -72,15 +58,25 @@ The Model Library gives you a great overview and filter options to find the corr
 
 👉 Select the `GPT-4.1 mini` model.
 
-![chat_change_model_gpt](assets/prompt-engineering-01.png)
+![chat_change_model_gpt](assets/prompt-engineering-02.png)
 
-###
+### Chat Settings
 
-👉 Select the **Chat Context** tab.
+You can configure different parameters for the LLM within the **Configure Chat Settings**. These are typical parameters almost all LLMs provide. The SAP AI Launchpad allows you to easily configure these parameters for the model. These configurations would usually be done within the model configuration, but you can also change them here within the chat feature to test them out and experiment with the LLMs' behaviour.
+
+The parameter **Frequency Penalty** allows you to penalize words that appear too frequently in the text, leading to the model not sounding too robotic.
+
+Similarly, the higher the **Presence Penalty**, the more likely the model will talk about new topics, as you penalize words that have appeared in the text so far.
+
+With **Max Tokens**, you can set the size of the input and output of the model. Tokens are not words but rather 4-5 characters long in regards to this model. Each and every model can define its tokenization technique for itself. There is no set standard for tokenization, so be advised if you use LLMs outside of this workshop.
+
+With the **Temperature** parameter, you can set how creative the model should sound—how flexible the model is allowed to be in selecting the next token in the sequence.
 
 ### Context History and Message Roles
 
-You can find the settings for the **Context History**. Here you can set the number of recent messages that should be sent to the model. This defines how large the chat history should be, which is provided as context to the model for each new request.
+👉 Select the **Chat Context** tab.
+
+You can see the settings for the **Context History**. Here you can set the number of recent messages that should be sent to the model. This defines how large the chat history should be, which is provided as context to the model for each new request.
 
 This concept is important to understand. A lot of times, the assumption is that an LLM has a "memory" of everything a user has said, but that is not the case. The LLM allows for accepting a contextual history which it can then leverage to understand the previous context. Some LLM interaction software even allows you to provide a global context from multiple chats from different interactions with the LLM.
 
