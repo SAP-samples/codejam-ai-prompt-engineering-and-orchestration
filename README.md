@@ -1,4 +1,4 @@
-# AI Prompt Engineering and Prchestration
+# AI Prompt Engineering and Orchestration
 Learn more about prompt engineering using the SAP AI Launchpad and utilize the Grounding and Orchestration service to test a RAG flow.
 
 # Containing Files
