@@ -25,7 +25,7 @@ For this CodeJam you are provided with a subaccount on SAP BTP. The subaccount i
 
 ### Content Discovery for Customer Reference Projects
 
-[SAP Content Discovery - Artificial Intelligence](https://content-discovery.int.sap/asset-explore/57a1f804-c7aa-454d-9bde-7eb67872f034/product-sub-categories_3937994e-19f8-4db9-901d-eb9db5b45c85?contentCategoryIds=CUSTOMER_REFERENCE&categoryItemIds=product-sub-categories_3937994e-19f8-4db9-901d-eb9db5b45c85)
+- [SAP Content Discovery - Artificial Intelligence](https://content-discovery.int.sap/asset-explore/57a1f804-c7aa-454d-9bde-7eb67872f034/product-sub-categories_3937994e-19f8-4db9-901d-eb9db5b45c85?contentCategoryIds=CUSTOMER_REFERENCE&categoryItemIds=product-sub-categories_3937994e-19f8-4db9-901d-eb9db5b45c85)
 
 ### Learning on SAP AI Core
 
@@ -40,7 +40,7 @@ For this CodeJam you are provided with a subaccount on SAP BTP. The subaccount i
 
 ### SAP Business Accelerator Hub - SAP AI Core API
 
-[SAP Business Accelerator Hub - SAP AI Core](https://api.sap.com/package/SAPAICore/rest)
+- [SAP Business Accelerator Hub - SAP AI Core](https://api.sap.com/package/SAPAICore/rest)
 
 ## Frequently asked Questions
 
